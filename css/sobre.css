@@ -1,0 +1,19 @@
+.sobre {
+    background-color: var(--fundo-claro);
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.sobre__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 1rem 0 0 0;
+}
+
+.sobre__paragrafo {
+    line-height: 1.5rem;
+    margin: auto;
+    padding: 1.5rem 0 0 0;
+    width: 70%;
+}

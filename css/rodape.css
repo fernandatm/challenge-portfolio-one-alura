@@ -1,0 +1,68 @@
+.rodape__contato {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contato__image {
+    border-radius: 1rem;
+    width: 35%;
+    height: 500px;
+}
+
+.contato__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.contato__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.contato__paragrafo {
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.contato__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0;
+    gap: 0.5rem;
+}
+
+.formulario__campo {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--fonte);
+    font-family: 'Manrope', sans-serif;
+    height: 3rem;
+    width: 100%;
+}
+
+.formulario__campo::placeholder {
+    color: var(--fonte);
+    vertical-align: top;
+}
+
+.formulario__campo:focus {
+    background-color: whitesmoke;
+    outline: none;
+}
+
+.formulario__campo--mensagem {
+    height: 8rem;
+}
+
+.rodape__creditos {
+    background-color: var(--fundo);
+    line-height: 1.5rem;
+    padding: 2rem 0;
+}

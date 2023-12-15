@@ -1,0 +1,38 @@
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.cartoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.cartao {
+    width: 5em;
+    height: 5em;
+    background-color: var(--branco);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 0.5em;
+    font-weight: 700;
+}
+.cartao__texto {
+    display: none;
+}
+
+.cartao__imagem {
+    width: 55px;
+}

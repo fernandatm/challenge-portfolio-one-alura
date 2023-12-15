@@ -1,0 +1,55 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 8rem;
+
+}
+
+.banner__texto {
+    width: 60%;
+    margin-right: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.banner__titulo {
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding: 2rem 0;
+}
+
+.banner__subtitulo {
+    font-size: 28px;
+    padding: 0.5rem 0;
+    letter-spacing: 2px;
+}
+
+.banner__paragrafo {
+    font-size: 18px;
+    line-height: 2rem;
+    padding: 0.5rem 0;
+}
+
+.banner__navegacao {
+    display: flex;
+    font-weight: 500;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.banner__link {
+    align-items: center;
+    display: flex;
+}
+
+.banner__image {
+    height: auto;
+    width: 30%;
+}
+
+.image__perfil {
+    border-radius: 50%;    
+    width: 100%;
+}
